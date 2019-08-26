@@ -1,0 +1,25 @@
+body{
+    background: #272F41;
+    color: #fb9fa4;
+}
+h1{
+    font-size: 8.0em;
+}
+#product{
+    margin-bottom: -30px;
+}
+#design{
+    margin-top: -30px;
+}
+a{
+    background: #272F41;
+    color: #fb9fa4;
+}
+#head{
+    text-align: center;
+}
+#vert{
+    font-size: 1.5em;
+    -webkit-transform: rotate(-90deg); 
+    -moz-transform: rotate(-90deg);	
+}

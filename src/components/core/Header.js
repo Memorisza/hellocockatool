@@ -1,10 +1,23 @@
 import React, { Component } from 'react'
-import Button from './Button';
+
 
 export default class Header extends Component {
     render() {
         return (
-            <Button>Click Me!</Button>
+            <div className="row">
+                <div className="col-md-1">
+		        </div>
+                <div className="col-md-10" id="head">
+                    <p>
+				        Online Boutique
+			        </p>
+                </div>
+                <div className="col-md-1">
+                    <h1 id="vert">
+                        Collage
+                    </h1>
+                </div>
+	        </div>
         )
     }
 }
