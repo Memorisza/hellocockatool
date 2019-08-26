@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-import Navbar from 'Navbar';
+import Button from './Button';
 
 export default class Header extends Component {
     render() {
         return (
-            <Navbar/>
+            <Button>Click Me!</Button>
         )
     }
 }
